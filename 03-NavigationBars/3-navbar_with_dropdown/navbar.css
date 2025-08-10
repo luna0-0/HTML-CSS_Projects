@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 20px 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  background-color: rgb(147, 180, 4);
+  height: 6vh;
+  width: 100vw;
+  position: relative;
+}
+nav ul {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  padding: 5px;
+}
+nav ul li a:hover {
+  background-color: rgba(103, 145, 41, 0.587);
+}
+
+.about-opt,
+.service-opt {
+  background-color: rgba(160, 205, 62, 0.689);
+  display: none;
+  position: absolute;
+  top: 5vh;
+  padding: 5px;
+}
+.about-opt a,
+.service-opt a {
+  color: black;
+  display: block;
+  padding: 5px;
+}
+.about:hover .about-opt,
+.service:hover .service-opt {
+  display: block;
+}
+
+nav button {
+  padding: 5px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+nav button:hover {
+  background-color: rgb(1, 101, 1);
+}
