@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+
+body {
+  background-color: rgb(233, 247, 240);
+}
+
+.top {
+  background-color: rgb(46, 140, 70);
+  color: white;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  font-weight: 900;
+  font-size: 20px;
+}
+.search-bar {
+  padding: 0.25em 0.5em;
+  border: unset;
+  border-radius: 4px;
+}
+
+nav {
+  background-color: rgb(61, 179, 114);
+}
+nav ul {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.hero {
+  text-align: center;
+  padding: 5em;
+}
+.hero h1 {
+  color: rgb(48, 140, 69);
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.courses div {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(49, 49, 49, 0.1);
+  padding: 2em;
+  width: 21%;
+}
+.courses h3 {
+  color: rgb(48, 140, 69);
+  font-weight: 800;
+}
+
+footer {
+  background-color: rgb(46, 140, 70);
+  color: white;
+  height: 7vh;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  line-height: 3.5em;
+}
